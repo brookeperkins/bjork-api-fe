@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BjorkItem /> renders a single list item 1`] = `
+<DocumentFragment>
+  <figure>
+    <img
+      alt="bjork.jpg"
+      src="bjork.jpg"
+    />
+    <h3>
+      1999
+    </h3>
+  </figure>
+</DocumentFragment>
+`;
+
+exports[`BjorkItem component renders single character 1`] = `
+<DocumentFragement>
+  <figure>
+    <img
+    alt="bjork.jpg"
+    src="bjork.jpg"
+    />
+    <figcaption>
+      1997
+    </figcaption>
+  </figure>
+</DocumentFragement>
+`;
