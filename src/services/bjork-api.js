@@ -1,9 +1,10 @@
 import fetch from 'node-fetch';
-const URL = 'http://localhost:7891';
+const URL = process.env.DATABASE_URL;
 
 export const fetchOutfits = async() => {
   const res = await fetch(`${URL}/outfits`);
   const json = await res.json;
+  console.log(json);
 
   if(!res.ok) throw 'Error: unable to fetch';
 
