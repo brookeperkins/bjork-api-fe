@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`<BjorkList /> renders the BjorkList component 1`] = `
 <DocumentFragment>
   <h1>
     Loading...

@@ -1,14 +1,14 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import BjorkItem from './BjorkItem';
 
 describe('<BjorkItem />', () => {
-  afterEach(() => cleanup());
+  const number = 1999;
 
   it('renders a single list item', () => {
     const { asFragment } = render(<BjorkItem
-      imgUrl="bjork.jpg"
-      year={1999}
+      img="bjork.jpg"
+      year={number}
     />);
     expect(asFragment()).toMatchSnapshot();
   });

@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const BjorkItem = ({ imgUrl, year }) => (
+const BjorkItem = ({ img, year }) => (
   <figure>
-    <img src={imgUrl} alt={imgUrl} />
+    <img src={img} alt={img} />
     <h3>{year}</h3>
   </figure>
 );
 
 BjorkItem.propTypes = {
-  imgUrl: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
   year: PropTypes.number.isRequired
 };
 

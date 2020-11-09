@@ -13,17 +13,3 @@ exports[`<BjorkItem /> renders a single list item 1`] = `
   </figure>
 </DocumentFragment>
 `;
-
-exports[`BjorkItem component renders single character 1`] = `
-<DocumentFragement>
-  <figure>
-    <img
-    alt="bjork.jpg"
-    src="bjork.jpg"
-    />
-    <figcaption>
-      1997
-    </figcaption>
-  </figure>
-</DocumentFragement>
-`;
