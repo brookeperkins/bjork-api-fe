@@ -68,11 +68,3 @@ exports[`<Form /> renders the form 1`] = `
   </div>
 </DocumentFragment>
 `;
-
-exports[`Form component renders Form 1`] = `
-<DocumentFragment>
-  <div
-
-  </div>
-</DocumentFragment>
-`;
