@@ -1,9 +1,8 @@
-import fetch from 'node-fetch';
 const URL = process.env.DATABASE_URL;
 
 export const fetchOutfits = async() => {
   const res = await fetch(`${URL}/outfits`);
-  const json = await res.json;
+  const json = await res.json();
   console.log(json);
 
   if(!res.ok) throw 'Error: unable to fetch';
@@ -28,4 +27,12 @@ export const getOutfitById = async(id) => {
     year: json.year,
     quote: json.quote
   };
+};
+
+export const createOutfit = (image, year, quote) => {
+  return fetch(`${URL}/outfits`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ image, year, quote })
+  }).then(res => res.json());
 };

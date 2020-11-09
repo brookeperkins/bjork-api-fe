@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders the form 1`] = `
+<DocumentFragment>
+  <div
+    class="form-div"
+  >
+    <form
+      class="create-outfit-form"
+    >
+      <div
+        class="form-header"
+      >
+        <h1>
+          Share Your Favorite Bjork Outfit
+        </h1>
+      </div>
+      <div
+        class="enter-image"
+      >
+        <label>
+          Image url:
+          <input
+            name="image"
+            placeholder=""
+            type="text"
+            value="https://bjork.com/bjork.jpg"
+          />
+        </label>
+      </div>
+      <div
+        class="enter-year"
+      >
+        <label>
+          What year is it from?
+          <input
+            name="year"
+            placeholder=""
+            type="number"
+            value="1994"
+          />
+        </label>
+      </div>
+      <div
+        class="enter-quote"
+      >
+        <label>
+          Enter a quote:
+          <input
+            name="quote"
+            placeholder=""
+            type="text"
+            value="Bjork quote here."
+          />
+        </label>
+      </div>
+      <button
+        data-testid="form-button"
+      >
+        Submit
+      </button>
+    </form>
+    <div
+      data-testid="done-display"
+    >
+      <p />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Form component renders Form 1`] = `
+<DocumentFragment>
+  <div
+
+  </div>
+</DocumentFragment>
+`;
